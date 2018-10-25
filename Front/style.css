@@ -21,10 +21,13 @@
         border: none;
         border-radius: 15px;
     
+        opacity: 0.6;
+
         
-        position: absolute;
-        right: -350px;
-        top :160px;
+        right:0px
+       
+    
+   
     }
 
     #b1{
@@ -47,10 +50,10 @@
 #frequentrequestions{
     background-color: rgb(0, 0, 0);
     width: 700px;
-    height:850px;
-    position: relative;
-    left :-350px;
-    top:100px;
+    height:650px;
+  
+    left :10px;
+    top:150px;
     opacity: 0.6;
     filter: alpha(opacity=60);
 }
@@ -61,27 +64,9 @@
     width: 280px;
     background-color: rgb(46, 46, 129);
     position: relative;
-    left: 155px;
+    left: 10px;
     top: -50px;
     margin: 20px;
     padding: 10px;
 }
 
-
-
-#answer{
-    color: white;
-    font-size: 20px;
-}
-
-/*Large screen styles first - Avoid*/
-.product-img {
-    width: 50%;
-    float: left;
-  }
-  @media screen and (max-width: 40.5em) {
-    .product-img {
-      width: auto;
-      float: none;
-    }
-  }
