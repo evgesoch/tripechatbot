@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'chatbot.apps.ChatbotConfig',
     'arxiki_selida.apps.ArxikiSelidaConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -119,3 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    "/static/arxiki_selida/",
+    "/static/chatbot/",
+]
