@@ -43,7 +43,7 @@
 
 
 
-          <div class="chatlogs position-fixed" style="bottom:80px;top:0px">  
+          <div id = "msg-container" class="chatlogs position-fixed" style="bottom:80px;top:0px">  
 
             <div class="row">
               <div class="col-sm-6">
@@ -52,8 +52,8 @@
                        Hey! I am Frank, your Real Estate Chatbot. I can help you find the most suitable house for you and also manage the house that you own.<br>
                        <br>If you have any questions type ":ask:(your question)" at any time!<br><br> So, you interested for a house or are you an owner?<br>
                        <div class="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn  btn-info" onClick="divFunction()">Interested</button>
-                        <button type="button" class="btn btn-danger">Owner</button>
+                        <button type="button" class="btn  btn-info" onClick="buildMessage('Interested')">Interested</button>
+                        <button type="button" class="btn btn-danger" onClick="buildMessage('Owner')">Owner</button>
                       </div>
                     </div>
                     <div class="testimonial-desc">
@@ -87,88 +87,7 @@
                 </div>        
               </div>-->
 
-              <div class="row">
-                <div class="col-sm-6">
-                  <div id="tb-testimonial" class="testimonial testimonial-default-filled ">
-                      <div   class="testimonial-section">
-                         Hey! I am Frank, your Real Estate Chatbot. I can help you find the most suitable house for you and also manage the house that you own.<br>
-                         <br>If you have any questions type ":ask:(your question)" at any time!<br><br> So, you interested for a house or are you an owner?<br>
-                         <div class="btn-group" role="group" aria-label="Basic example">
-                          <button type="button" class="btn  btn-info" onClick="buildMessage()">Interested</button>
-                          <button type="button" class="btn btn-danger">Owner</button>
-                        </div>
-                      </div>
-                      <div class="testimonial-desc">
-                          <img src="bot.jpg" alt="" />
-                          <div class="testimonial-writer">
-                              <div class="testimonial-writer-name">Frank</div>   
-                          </div>
-                      </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-sm-6">
-                  
-                </div>
-                <div class="col-sm-6">
-                  <div id="tb-testimonial" class="testimonial testimonial-success-filled">
-                      <div class="testimonial-section">
-                         Απάντηση!!!
-                    </div>
-                    <div class="testimonial-desc">
-                        <img src="user.png" alt="" />
-                         <div class="testimonial-writer">
-                             <div class="testimonial-writer-name">User</div>
-                            
-                        </div>
-                     </div>
-                 </div> 
-                </div>
-              </div> 
               
-               <div class="row">
-                <div class="col-sm-6">
-                  <div id="tb-testimonial" class="testimonial testimonial-default-filled ">
-                      <div   class="testimonial-section">
-                         Hey! I am Frank, your Real Estate Chatbot. I can help you find the most suitable house for you and also manage the house that you own.<br>
-                         <br>If you have any questions type ":ask:(your question)" at any time!<br><br> So, you interested for a house or are you an owner?<br>
-                         <div class="btn-group" role="group" aria-label="Basic example">
-                          <button type="button" class="btn  btn-info" onClick="divFunction()">Interested</button>
-                          <button type="button" class="btn btn-danger">Owner</button>
-                        </div>
-                      </div>
-                      <div class="testimonial-desc">
-                          <img src="bot.jpg" alt="" />
-                          <div class="testimonial-writer">
-                              <div class="testimonial-writer-name">Frank</div>   
-                          </div>
-                      </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-sm-6">
-                  
-                </div>
-                <div class="col-sm-6">
-                  <div id="tb-testimonial" class="testimonial testimonial-success-filled">
-                      <div class="testimonial-section">
-                         Απάντηση!!!
-                    </div>
-                    <div class="testimonial-desc">
-                        <img src="user.png" alt="" />
-                         <div class="testimonial-writer">
-                             <div class="testimonial-writer-name">User</div>
-                            
-                        </div>
-                     </div>
-                 </div> 
-                </div>
-              </div>        
-            </div>
 
 
 
