@@ -16,9 +16,28 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+
+
+
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('arxiki_selida/', include('arxiki_selida.urls')),
     path('chatbot/', include('chatbot.urls')),
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
