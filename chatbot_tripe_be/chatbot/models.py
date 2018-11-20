@@ -10,6 +10,8 @@ class City(models.Model):
         return self.cityname
 
 
+
+
 class Owner(models.Model):
     fullname = models.CharField(max_length=500)
     username = models.CharField(max_length=500)
@@ -17,6 +19,8 @@ class Owner(models.Model):
 
     def __str__(self):
         return self.fullname
+
+
 
 
 class House(models.Model):
@@ -28,4 +32,5 @@ class House(models.Model):
 
     def __str__(self):
         return str(self.pk) + ': ' + str(self.city) + ' ' + str(self.owner)
+
 
