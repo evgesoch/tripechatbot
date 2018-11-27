@@ -8,15 +8,20 @@ $(document).ready(
 
         console.log(response);
 
-        var houses = JSON.parse(response);
-       
+        var houses;
+
         var list = "";
 
-        for(i=0;i<houses.lenght;i++){
+        for(i in response){
+                houses[i] = JSON.parse(response[i]);
                 list += "<li>" + houses[i].area + "</li>";
         }
+
+        //list += "<li>" + house.area + "</li>";
+
+        console.log(list);
     
-        $("#list").html(list);
+       $("#list").html(list);
 
         }));
 </script>
