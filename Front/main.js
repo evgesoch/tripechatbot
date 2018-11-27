@@ -55,5 +55,4 @@ function buildMessage(msg){
     }
 
     $("#msg-container").append(frankResponse);
-
 }

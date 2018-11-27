@@ -2,13 +2,12 @@ from django.http import HttpResponse, JsonResponse, Http404
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from rest_framework import status, import renderers
+from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.views import APIView
 from django.template import loader
 from .models import City, Owner, House
 from .serializers import CitySerializer, OwnerSerializer, HouseSerializer
-
 
 
 

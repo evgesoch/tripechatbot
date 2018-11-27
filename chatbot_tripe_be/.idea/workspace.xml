@@ -53,44 +53,17 @@
         </counts>
       </usages-collector>
     </session>
-    <session id="423871556">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="74" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="74" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chatbot/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="550">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <marker date="1542709450875" expanded="true" signature="216:418" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,41 +71,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chatbot/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="250">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#1#39#0" expanded="true" />
+                <marker date="1542705849965" expanded="true" signature="138:139" ph="..." />
+                <marker date="1542705849965" expanded="true" signature="138:215" ph="..." />
+                <marker date="1542705849965" expanded="true" signature="365:367" ph="..." />
+                <marker date="1542705849965" expanded="true" signature="436:529" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chatbot/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1895">
+              <caret line="100" column="40" lean-forward="true" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+                <marker date="1542720154577" expanded="true" signature="1161:3903" ph="..." />
+                <marker date="1542720154577" expanded="true" signature="1414:1991" ph="..." />
+                <marker date="1542720154577" expanded="true" signature="1991:1995" ph="..." />
+                <marker date="1542720154577" expanded="true" signature="2033:2527" ph="..." />
+                <marker date="1542720154577" expanded="true" signature="2585:2590" ph="..." />
+                <marker date="1542720154577" expanded="true" signature="2914:3369" ph="..." />
+                <marker date="1542720154577" expanded="true" signature="3964:3969" ph="..." />
+                <marker date="1542720154577" expanded="true" signature="4628:4747" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chatbot/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chatbot/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            <state relative-caret-position="500">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chatbot_tripe_be/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1165">
-              <caret line="119" column="40" selection-start-line="119" selection-start-column="40" selection-end-line="119" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -147,9 +126,6 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -163,12 +139,12 @@
         <option value="$PROJECT_DIR$/arxiki_selida/models.py" />
         <option value="$PROJECT_DIR$/chatbot/admin.py" />
         <option value="$PROJECT_DIR$/arxiki_selida/templates/arxiki_selida/index.html" />
+        <option value="$PROJECT_DIR$/chatbot_tripe_be/settings.py" />
         <option value="$PROJECT_DIR$/chatbot/serializers.py" />
         <option value="$PROJECT_DIR$/chatbot/models.py" />
         <option value="$PROJECT_DIR$/chatbot_tripe_be/urls.py" />
-        <option value="$PROJECT_DIR$/chatbot_tripe_be/settings.py" />
-        <option value="$PROJECT_DIR$/chatbot/urls.py" />
         <option value="$PROJECT_DIR$/chatbot/views.py" />
+        <option value="$PROJECT_DIR$/chatbot/urls.py" />
       </list>
     </option>
   </component>
@@ -178,7 +154,6 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -200,13 +175,13 @@
               <item name="chatbot_tripe_be" type="b2602c69:ProjectViewProjectNode" />
               <item name="chatbot_tripe_be" type="462c0819:PsiDirectoryNode" />
               <item name="chatbot" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chatbot_tripe_be" type="b2602c69:ProjectViewProjectNode" />
               <item name="chatbot_tripe_be" type="462c0819:PsiDirectoryNode" />
               <item name="chatbot" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="chatbot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -225,11 +200,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\georgek2\Documents\GitHub\tripechatbot\chatbot_tripe_be\chatbot\templates\chatbot" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -263,8 +233,8 @@
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49472675" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="1" sideWeight="0.5052732" side_tool="true" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49760306" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" sideWeight="0.50239694" side_tool="true" visible="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -399,6 +369,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chatbot_tripe_be/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -406,51 +383,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chatbot_tripe_be/urls.py">
+    <entry file="file://$PROJECT_DIR$/chatbot/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="550">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1542709450875" expanded="true" signature="216:418" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chatbot/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#1#39#0" expanded="true" />
+            <marker date="1542705849965" expanded="true" signature="138:139" ph="..." />
+            <marker date="1542705849965" expanded="true" signature="138:215" ph="..." />
+            <marker date="1542705849965" expanded="true" signature="365:367" ph="..." />
+            <marker date="1542705849965" expanded="true" signature="436:529" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatbot/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1895">
+          <caret line="100" column="40" lean-forward="true" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <marker date="1542720154577" expanded="true" signature="1161:3903" ph="..." />
+            <marker date="1542720154577" expanded="true" signature="1414:1991" ph="..." />
+            <marker date="1542720154577" expanded="true" signature="1991:1995" ph="..." />
+            <marker date="1542720154577" expanded="true" signature="2033:2527" ph="..." />
+            <marker date="1542720154577" expanded="true" signature="2585:2590" ph="..." />
+            <marker date="1542720154577" expanded="true" signature="2914:3369" ph="..." />
+            <marker date="1542720154577" expanded="true" signature="3964:3969" ph="..." />
+            <marker date="1542720154577" expanded="true" signature="4628:4747" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatbot_tripe_be/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#640#672#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chatbot/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="500">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chatbot_tripe_be/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1165">
-          <caret line="119" column="40" selection-start-line="119" selection-start-column="40" selection-end-line="119" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chatbot/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chatbot/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
         </state>
       </provider>
     </entry>
