@@ -2,7 +2,7 @@ from django.http import HttpResponse, JsonResponse, Http404
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from rest_framework import status, generics, mixins
+from rest_framework import status, generics, mixins, renderers
 from rest_framework.decorators import api_view
 from rest_framework.views import APIView
 from django.template import loader
@@ -23,27 +23,33 @@ def index2(request):
 class CityList(generics.ListCreateAPIView):
     queryset = City.objects.all()
     serializer_class = CitySerializer
+    renderer_classes = [renderers.JSONRenderer]
 
 class CityDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = City.objects.all()
     serializer_class = CitySerializer
+    renderer_classes = [renderers.JSONRenderer]
 
 class OwnerList(generics.ListCreateAPIView):
     queryset = Owner.objects.all()
     serializer_class = OwnerSerializer
+    renderer_classes = [renderers.JSONRenderer]
 
 class OwnerDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Owner.objects.all()
     serializer_class = OwnerSerializer
+    renderer_classes = [renderers.JSONRenderer]
 
 class HouseList(generics.ListCreateAPIView):
     queryset = House.objects.all()
     serializer_class = HouseSerializer
     filter_fields = ('salerent', 'city', 'price', 'area')
+    renderer_classes = [renderers.JSONRenderer]
 
 class HouseDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = House.objects.all()
     serializer_class = HouseSerializer
+    renderer_classes = [renderers.JSONRenderer]
 
 
 
