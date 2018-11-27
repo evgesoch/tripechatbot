@@ -50,9 +50,9 @@
                 <div id="tb-testimonial" class="testimonial testimonial-default-filled ">
                     <div   class="testimonial-section">
                        Hey! I am Frank, your Real Estate Chatbot. I can help you find the most suitable house for you and also manage the house that you own.<br>
-                       <br>If you have any questions type ":ask:(your question)" at any time!<br><br> So, you interested for a house or are you an owner?<br>
+                       <br>If you have any questions type "your question" at any time!<br><br> So, you interested for a house or are you an owner?<br>
                        <div class="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn  btn-info" onClick="buildMessage('Interested')">Interested</button>
+                        <button type="button" class="btn  btn-info" onclick="document.getElementById('demo').style.display='block'" >Interested</button>
                         <button type="button" class="btn btn-danger" onClick="buildMessage('Owner')">Owner</button>
                       </div>
                     </div>
@@ -66,14 +66,14 @@
               </div>
             </div>        
         
-               <!--      <div class="row">
+            <div id="demo" style="display:none">
+            <div class="row">
                   <div class="col-sm-6">
-                    
                   </div>
                   <div class="col-sm-6">
                     <div id="tb-testimonial" class="testimonial testimonial-success-filled">
                         <div class="testimonial-section">
-                           Απάντηση!!!
+                            Interested
                       </div>
                       <div class="testimonial-desc">
                           <img src="user.png" alt="" />
@@ -84,36 +84,53 @@
                        </div>
                    </div> 
                   </div>
-                </div>        
-              </div>-->
+                </div>
 
-
-              <!--Frank, Buy rent?-->
-              
-               <!--   <div class="row">
-              <div class="col-sm-6">
-                <div id="tb-testimonial" class="testimonial testimonial-default-filled ">
-                    <div   class="testimonial-section">
-                        Do you want to Buy or Rent ?<br>
-
-                       <div class="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn  btn-info" onClick="buildMessage('Buy')">Buy</button>
-                        <button type="button" class="btn btn-danger" onClick="buildMessage('Rent')">Rent</button>
+                <!--Frank, Buy rent?-->
+                <div class="row">
+                    <div class="col-sm-6">
+                      <div id="tb-testimonial" class="testimonial testimonial-default-filled ">
+                          <div   class="testimonial-section">
+                              Do you want to Buy or Rent ?<br>
+      
+                             <div class="btn-group" role="group" aria-label="Basic example">
+                              <button type="button" class="btn  btn-info" onclick="document.getElementById('demo2').style.display='block'">Buy</button>
+                              <button type="button" class="btn btn-danger" onClick="buildMessage2('Rent')">Rent</button>
+                            </div>
+                          </div>
+                          <div class="testimonial-desc">
+                              <img src="bot.jpg" alt="" />
+                              <div class="testimonial-writer">
+                                  <div class="testimonial-writer-name">Frank</div>   
+                              </div>
+                          </div>
                       </div>
                     </div>
-                    <div class="testimonial-desc">
-                        <img src="bot.jpg" alt="" />
-                        <div class="testimonial-writer">
-                            <div class="testimonial-writer-name">Frank</div>   
-                        </div>
+                  </div>
+
+              </div>
+
+              <div id="demo2" style="display:none">
+              <div class="row">
+                <div class="col-sm-6">
+                </div>
+                <div class="col-sm-6">
+                  <div id="tb-testimonial" class="testimonial testimonial-success-filled">
+                      <div class="testimonial-section">
+                          Buy
                     </div>
+                    <div class="testimonial-desc">
+                        <img src="user.png" alt="" />
+                         <div class="testimonial-writer">
+                             <div class="testimonial-writer-name">User</div>
+                            
+                        </div>
+                     </div>
+                 </div> 
                 </div>
               </div>
-            </div>  
-        -->
 
-        <!--Frank, Lacation?-->
-            <!--<div class="col-sm-6">
+              <div class="col-sm-6">
                 <div id="tb-testimonial" class="testimonial testimonial-default-filled ">
                     <div   class="testimonial-section">
                        Perfect! Tell me the location you want.
@@ -126,8 +143,61 @@
                     </div>
                 </div>
               </div>
-            </div>-->
+            </div>
+            </div>
 
+
+            <div id="demo3" style="display:none">
+                <div class="col-sm-6">
+                    <div id="tb-testimonial" class="testimonial testimonial-default-filled ">
+                        <div   class="testimonial-section">
+                        Set price range please!
+                            <div class="row">
+                                <p>Min:</p>
+                                <div class="col-xs-6">    
+                                  <div class="range range-success">
+                                    <input type="range" name="range" min="1" max="1000" value="50" onchange="rangeSuccess.value=value">
+                                    <output id="rangeSuccess">50</output>
+                                  </div>
+                                </div>
+                                <p>Max:</p>
+                                <div class="col-xs-6">
+                                  <div class="range range-info">
+                                    <input type="range" name="range" min="1" max="1000" value="600" onchange="rangeInfo.value=value">
+                                    <output id="rangeInfo">600</output>
+                                  </div>
+                                </div>
+                              </div> <br><br> Set area range please!
+                              <div class="row">
+                                    <p>Min:</p>
+                                    <div class="col-xs-6">
+                                      <div class="range range-warning">
+                                        <input type="range" name="range" min="1" max="100" value="35" onchange="rangeWarning.value=value">
+                                        <output id="rangeWarning">35</output>
+                                      </div>
+                                    </div>
+                                    <p>Max:</p>
+                                    <div class="col-xs-6">
+                                      <div class="range range-danger">
+                                        <input type="range" name="range" min="1" max="300" value="100" onchange="rangeDanger.value=value">
+                                        <output id="rangeDanger">100</output>
+                                      </div>
+                                    </div>
+                                  </div>
+    
+                        </div>
+                        <div class="testimonial-desc">
+                            <img src="bot.jpg" alt="" />
+                            <div class="testimonial-writer">
+                                <div class="testimonial-writer-name">Frank</div>   
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+    
             <!--Frank, Price & Area-->
             <!--<div class="col-sm-6">
                 <div id="tb-testimonial" class="testimonial testimonial-default-filled ">
@@ -189,6 +259,6 @@
       
 </div> 
 
-                   
+   
 </body>
 </html>
