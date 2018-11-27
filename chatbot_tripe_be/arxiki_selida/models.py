@@ -13,3 +13,5 @@ class Questions(models.Model):
 class Answers(models.Model):
     questions = models.ForeignKey(Questions, on_delete=models.CASCADE)
     answers = models.CharField(max_length=10000)
+
+
