@@ -1,12 +1,18 @@
 var message;
 var nbEl = 1;
+var buyRent;
+
+acceptedMsg = ["athens", "thessaloniki", "chania"];
+
+
 
 function sendmsg(){
     
-    message= document.getElementById("myText").value;
+	message= document.getElementById("myText").value;
+	message = message.toLowerCase();
 
 
-if(message=="thessaloniki"){
+if(acceptedMsg.includes(message)){
     var usermessage =
                         '<div class="row">'+
                             '<div class="col-sm-6"></div>'+
@@ -48,6 +54,29 @@ if(message=="thessaloniki"){
     $("#msg-container").append(errormsg);
 }
     
+}
+
+function filterResults(){
+	var city = 0;
+
+	switch(message){
+		case "thessaloniki":
+		city = 2; break;
+		case "athens":
+		city = 1; break;
+		case "chania":
+		city = 3; break;
+		default: city = 0;
+	}
+
+	for(var i in houses){
+		if(houses[i].city == city &&
+			houses[i].salerent == buyRent){
+				$("#resultsList").append($("<li>").text("House in " + message + " for " + salerent.toLowerCase + "\n" + 
+				"Area: " + houses[i].area + " sq. meters\n" + 
+				"Price: " + houses[i].price + "€\n"));
+			}
+	}
 }
 
 var houses = [{
