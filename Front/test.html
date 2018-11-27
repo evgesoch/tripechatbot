@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(
+        $.get("http://127.0.0.1:8000/chatbot/houses/", function(response){
+
+        console.log(response);
+
+        var houses[] = JSON.parse(response);
+       
+        var list = "";
+
+        for(i=0;i<houses.lenght;i++){
+                list += "<li>" + houses[i].area + "</li>";
+        }
+    
+        $("#list").html(list);
+
+        }));
+</script>
+
+</head>
+<body>
+    <ul id="list"></ul>
+</body>
+</html>

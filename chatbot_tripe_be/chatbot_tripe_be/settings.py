@@ -125,3 +125,10 @@ STATICFILES_DIRS = [
     "/static/arxiki_selida/",
     "/static/chatbot/",
 ]
+
+REST_FRAMEWORK = {
+   'DEFAULT_RENDERER_CLASSES': (
+       'rest_framework.renderers.JSONRenderer',
+       #'rest_framework.renderers.BrowsableAPIRenderer',  # view the endpoint in django rest html style
+   )
+}
