@@ -1,9 +1,12 @@
 var message;
+//var nbEl = 1;
 
 function sendmsg(){
     
     message= document.getElementById("myText").value;
 
+
+if(message=="thessaloniki"){
     var usermessage =
                         '<div class="row">'+
                             '<div class="col-sm-6"></div>'+
@@ -22,6 +25,15 @@ function sendmsg(){
                     '</div>' +
                     '</div>'+
                 '</div>';
-
     $("#msg-container").append(usermessage);
+
+   /* nbEl++;
+    var divClone = $("#element_1").clone();
+    divClone.attr("id","element_"+nbEl)
+    divClone.appendTo("body").show();
+    $("#msg-container").append(divClone);*/
+
+
+}
+    
 }
