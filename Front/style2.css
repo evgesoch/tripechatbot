@@ -15,6 +15,7 @@ body{
 }
 
     .testimonial-section {
+        transition-delay: 2s;
         width: 100%;
         height: auto;
         padding: 15px;
@@ -25,6 +26,7 @@ body{
         border: 1px solid #fff;
     }
     .testimonial-section:after {
+        transition-delay: 2s;
         top: 100%;
         left: 50px;
         border: solid transparent;
@@ -36,9 +38,10 @@ body{
     }
 
     .testimonial-desc {
+        transition-delay: 2s;
         margin-top: 20px;
         text-align:left;
-        padding-left: 50px;
+        padding-left: 48px;
     }
         .testimonial-desc img {
             border: 1px solid #f5f5f5;

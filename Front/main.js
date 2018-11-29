@@ -5,9 +5,25 @@ var buyRent;
 acceptedMsg = ["athens", "thessaloniki", "chania"];
 
 
+		// Get the input field
+		var input = document.getElementById("myText");
+
+		// Execute a function when the user releases a key on the keyboard
+		input.addEventListener("keyup", function(event) {
+		// Cancel the default action, if needed
+		event.preventDefault();
+	
+		if (event.keyCode === 13) {
+			sendmsg();
+		// Trigger the button element with a click
+		document.getElementById("sendbutton").click();
+		}
+		});
 
 function sendmsg(){
-    
+
+
+		
 	message= document.getElementById("myText").value;
 	message = message.toLowerCase();
 
