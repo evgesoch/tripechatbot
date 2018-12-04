@@ -5,31 +5,20 @@ var buyRent;
 acceptedMsg = ["athens", "thessaloniki", "chania"];
 
 
-		// Get the input field
-		var input = document.getElementById("myText");
-
-		// Execute a function when the user releases a key on the keyboard
-		input.addEventListener("keyup", function(event) {
-		// Cancel the default action, if needed
-		event.preventDefault();
-	
-		if (event.keyCode === 13) {
-			sendmsg();
-		// Trigger the button element with a click
-		document.getElementById("sendbutton").click();
-		}
-		});
 
 function sendmsg(){
 
 
-		
 	message= document.getElementById("myText").value;
 	message = message.toLowerCase();
 
+	
 
 if(acceptedMsg.includes(message)){
-    var usermessage =
+
+
+	
+    var usermessage =	'<div id="msg5">'+
                         '<div class="row">'+
                             '<div class="col-sm-6"></div>'+
                             '<div class="col-sm-6">'+
@@ -45,14 +34,16 @@ if(acceptedMsg.includes(message)){
                              '</div>'+
                         '</div>'+
                     '</div>' +
-                    '</div>'+
+					'</div>'+
+					'</div>'+
                 '</div>';
     $("#msg-container").append(usermessage);
 
     nbEl++;
     var divClone = $("#element_1").clone();
     divClone.attr("id","element_"+nbEl)
-    divClone.appendTo("body").show();
+	divClone.appendTo("body").show();
+
     $("#msg-container").append(divClone);
 }else{
     var errormsg =   '<div class="col-sm-6">'+
@@ -67,7 +58,8 @@ if(acceptedMsg.includes(message)){
             '</div>'+
         '</div>'+
     '</div>';
-    $("#msg-container").append(errormsg);
+	$("#msg-container").append(errormsg)
+
 }
     
 }
